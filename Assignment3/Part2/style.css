@@ -2,18 +2,18 @@ html {
     font-family: sans-serif;
 }
 div {
-    width: 200px; 
-    height: 100px; 
+    width: 200px; /* A reasonable large box width */
+    height: 150px; /* Adjusted height to make it visibly large */
     display: flex;
     justify-content: center;
-    align-items: center; 
-    margin: 50px auto; 
-    font-size: 1.1rem; 
-    background-color: #3498db; 
-    color: #ffffff; 
-    text-shadow: 1px 1px 0 black; 
-    border-radius: 10px; 
-    border: 1px solid #2980b9;
+    align-items: center; /* Centers text vertically */
+    margin: 50px auto; /* Centers the box horizontally */
+    font-size: 1.1rem; /* 1rem = 16px, so 1.1rem = ~17.6px */
+    background-color: red; /* Base color */
+    color: #ffffff; /* Contrasting text color */
+    text-shadow: 1px 1px 0 black; /* Black text shadow */
+    border-radius: 10px; /* Subtle border radius */
+    border: 1px solid #2980b9; /* Slightly darker border */
     background-image: linear-gradient(
     to bottom right,
      rgba(0, 0, 0, 0) 0%,
@@ -21,7 +21,7 @@ div {
      rgba(0, 0, 0, 0.2) 100%
     );
     box-shadow: 
-    3px 3px 5px rgba(0, 0, 0, 0.3), 
-    inset 2px 2px 5px rgba(255, 255, 255, 0.3), 
-    inset -2px -2px 5px rgba(0, 0, 0, 0.3);
+    3px 3px 5px rgba(0, 0, 0, 0.3), /* Standard shadow for raised effect */
+    inset 2px 2px 5px rgba(255, 255, 255, 0.3), /* Soft white inset shadow */
+    inset -2px -2px 5px rgba(0, 0, 0, 0.3); /* Dark inset shadow */
 }
