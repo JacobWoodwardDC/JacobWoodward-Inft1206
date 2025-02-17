@@ -1,45 +1,98 @@
-/* General setup */
+/*
+Name: Jacob Woodward
+File: style.css (Assignemt 3, Part 3)
+Date: Feb 21st 2025
+The CSS file for assignment 3 part 3
+*/
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1;
+    word-spacing: 1;
 }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
 
-body {
-  margin: 0 auto;
-  min-width: 1000px;
-  max-width: 1400px;
-}
+  h1{
+    text-align: center;
+    font-size: 30px;
+  }
 
-/* Layout */
+  h2{
+    font-size: 20px;
+  }
 
-section {
-  float: left;
-  width: 50%;
-}
+  header{
+    letter-spacing: 1.5;
+  }
 
-aside {
-  float: left;
-  width: 30%;
-}
+  section h2 + p {
+    text-indent: 20px;
+  }
 
-nav {
-  float: left;
-  width: 20%;
-}
+  a {
+    color: #a66;
+    text-decoration: underline;
+    content: "🔗"
+  }
 
-footer {
-  clear: both;
-}
+  a:visited {
+    color: #a66;
+  }
 
-header, section, aside, nav, footer {
-  padding: 20px;
-}
 
-/* header and footer */
+    a[href*="http"]::after {
+        content: "🔗";
+  }
 
-header, footer {
-  border-top: 5px solid #a66;
-  border-bottom: 5px solid #a66;
-}
 
-/* WRITE YOUR CODE BELOW HERE */
+    nav li a {
+        text-decoration: none;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 7%;
+        line-height: 3;
+        text-align: center;
+        border: 1px solid #a66;
+    }
