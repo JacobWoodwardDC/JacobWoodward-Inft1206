@@ -1,3 +1,9 @@
+/*
+Name: Jacob Woodward
+File: main.js
+Date: March 17, 2025
+The js file for assignment 4 part 2
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
