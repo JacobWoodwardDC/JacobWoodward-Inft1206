@@ -1,3 +1,8 @@
+/*
+Name: Jacob Woodward
+Date: March 25th
+About: JS file for assignment 4 part 1
+*/
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
